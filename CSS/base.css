@@ -60,7 +60,6 @@
     --shadow-small-light: .15rem .15rem 0 rgba(0, 0, 0, .1);
     --shadow-small-light: .25rem .25rem 0 rgba(0, 0, 0, .1);
 
-
     /*************
     **** Borders *
     **************/
@@ -68,16 +67,46 @@
     --border-xs: .1rem solid var(--color-light);
     --border-sm: .2rem solid var(--color-light);
     --border-lg: .4rem solid var(--color-white);
+
     --border-radius-sm: .25rem;
     --border-success: .2rem solid var(--color-success);
     --border-transparent: .1rem solid var(--color-transparent);
 }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1rem = 10px, 10px/16px = 62.5% */
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: var(--color-dark);
+    font-size: var(--display-sm);
+    min-height: 100vh;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {font-family: "Dosis", "Open Sans", sans-serif; font-weight: 700; letter-spacing: .05rem;}
+.ht, h1 { font-size: 3.5rem; }
+
   /******************
   * Background Colors *
   *******************/
 .bg-primary, .btn-primary { background-color:var(--color-primary); }
 .bg-secondary { background-color:var(--color-secondary); }
-.bgsuccess, .btn-secondary {background-color:var(--color-success); }
+.bg-success, .btn-secondary {background-color:var(--color-success); }
 .bg-info, .btn-info { background-color:var(--color-info); }
 .bg-warning, .btn-warning { background-color:var(--color-warning); }
 .bg-danger, .btn-danger { background-color:var(--color-danger); }
