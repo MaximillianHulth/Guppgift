@@ -2,13 +2,16 @@
 **** Display *
 **************/
 .d-flex{ display: flex; }
+.d-none { display: none; }
 
 /*************
 **** Flex ****
 **************/
 .flex-grow{ flex-grow: 1; }
 .flex-column { flex-direction: column; }
-.flex-grow { flex-grow: 1;}
+.flex-row-reverse { flex-direction: row-reverse; }
+.flex-grow { flex-grow: 1; }
+
 
 /*************
  Align & Justify
