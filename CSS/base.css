@@ -64,7 +64,7 @@
     /*************
     **** Borders *
     **************/
-    --border-xswhite: 0.1rem solid var(--color-white);
+    --border-xs-white: 0.1rem solid var(--color-white);
     --border-xs: .1rem solid var(--color-light);
     --border-sm: .2rem solid var(--color-light);
     --border-lg: .4rem solid var(--color-white);
