@@ -41,9 +41,9 @@
 .mt-15, .my-15 { margin-bottom: var(--distance-15); }
 
 .mr-4, .mx-4 { margin-right: var(--distance-4); }
-.ml-4, .mx-4 { margin-right: var(--distance-4); }
+.ml-4, .mx-4 { margin-left: var(--distance-4); }
 .mr-6, .mx-6 { margin-right: var(--distance-6); }
-.ml-6, .mx-6 { margin-right: var(--distance-6); }
+.ml-6, .mx-6 { margin-left: var(--distance-6); }
 
 
 /*************
